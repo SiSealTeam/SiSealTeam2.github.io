@@ -1,16 +1,14 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Web Tutorial</title>
-    </head>
-    <body>
-        <header>
-            <h1><a href="index.html">Web Tutorial</a></h1>
-        </header>
-        <article>
-            <h2>Web Application Server</h2>
-            An application server is a software framework that provides both facilities to create web applications and a server environment to run them.
-        </article>
-    </body>
-</html>
+---
+layout: default
+title: "Home Page"
+fulltitle: "My New Website | Update Coming August 2004" 
+excerpt: This is the greatest website on earth. Share! Like! Subscribe! I'm dead inside!
+---
+<!-- fulltitle: This overrides the default page title, which is "{{page.tite}} | {{site.title}}" -->
+<!-- excerpt: If this isn't set, it'll pull your {{site.tagline}} for meta description-->
+
+
+<section>
+  <h1>{{site.title}}</h1>
+  <h4>{{site.tagline}}. Isn't your website beautiful?!</h4>
+</section>
